@@ -17,7 +17,7 @@ int main(){
     auto start = sc::steady_clock::now();
 
 
-    // use it 
+    
     std::this_thread::sleep_for(3s);
 
     std::this_thread::sleep_for(3s); 
@@ -27,6 +27,8 @@ int main(){
     auto duration =sc::duration_cast<sc::seconds>(end-start);
 
     std::cout<<duration.count()<<std::endl;
+
+
 
 
     return 0;
