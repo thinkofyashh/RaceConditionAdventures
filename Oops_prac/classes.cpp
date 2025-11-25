@@ -27,8 +27,18 @@ int main(){
 
     cout<<sizeof(Student)<<endl;
 
+
+
+    // in this we have dynamicaly created the Hero Object .
+
+    Hero *h2=new Hero(4,"Rawat",5);
+
+    cout<<"It will show the health of hero 2 ----" <<h2->health<<endl;
+
+
+
     // this is called statically allocated memory .
-    
+
     Hero h1= Hero(2,"yash",4);
 
     cout<<"Size of the class is :"<<sizeof(Hero)<<endl;
